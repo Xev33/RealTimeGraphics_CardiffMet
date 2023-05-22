@@ -1,0 +1,677 @@
+CAMERA_COUNT:	1
+CAMERA:
+{
+	FOV:	45.0 
+	NEAR:	0.5
+	FAR:	1000.0
+	POS:	0.0 0.0 10.0
+	ROT:	0.0 0.0 0.0
+}
+
+LIGHT_COUNT: 8
+LIGHT:
+{
+	TYPE:	0
+	POS:	5.0 -10.0 10.0
+	ATT:	0.0 0.05 0.0
+	DIR:	90.0 0.0 0.0
+	COL:	1.0 1.0 0.3
+}
+
+LIGHT:
+{
+	TYPE:	1
+	POS:	0.0 0.0 0.0
+	ATT:	0.0 0.1 0.0
+	DIR:	0.2 0.5 0.0
+	COL:	1.0 1.0 1.0
+}
+
+LIGHT:
+{
+	TYPE:	2
+	POS:	0.0 0.0 0.0
+	ATT:	2.0 2.0 2.0
+	DIR:	0.0 0.5 0.0
+	COL:	1.0 1.0 1.0
+}
+
+LIGHT:
+{
+	TYPE:	3
+	POS:	0.0 0.0 0.0
+	ATT:	0.2 0.6 0.2
+	DIR:	0.0 0.5 0.0
+	COL:	1.0 1.0 1.0
+}
+
+LIGHT:
+{
+	TYPE:	4
+	POS:	0.0 5.0 -45.0
+	ATT:	0.0 0.05 0.0
+	DIR:	90.0 0.0 0.0
+	COL:	0.1 0.9 0.8
+}
+
+LIGHT:
+{
+	TYPE:	5
+	POS:	0.0 0.0 0.0
+	ATT:	0.0 0.1 0.0
+	DIR:	0.5 0.5 0.2
+	COL:	1.0 1.0 1.0
+}
+
+LIGHT:
+{
+	TYPE:	6
+	POS:	0.0 1.0 2.0
+	ATT:	0.0 0.01 0.0
+	DIR:	0.0 0.0 0.0
+	COL:	1.0 1.0 0.3
+}
+
+LIGHT:
+{
+	TYPE:	7
+	POS:	-5.0 10.0 -10.0
+	ATT:	0.0 0.02 0.0
+	DIR:	0.0 0.0 0.0
+	COL:	1.0 1.0 1.0
+}
+
+MESH_COUNT: 49
+MESH: Sword.obj
+{
+	NAME:		sword1
+	POS:		0.0 -1.5 0.0
+	ROT:		0.0 0.0 45.0
+	ROT_INCR:	0.0 0.1 0.0
+	SCALE:		0.1 0.1 0.1
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	6
+}
+
+MESH: Crate.obj
+{
+	NAME:		crate1
+	POS:		-15.0 -2.5 -45.2
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.1 0.1 0.1
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: Crate.obj
+{
+	NAME:		crate2
+	POS:		-15.0 -0.5 -44.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.1 0.1 0.1
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: Crate.obj
+{
+	NAME:		crate3
+	POS:		-15.0 -2.5 -43.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.1 0.1 0.1
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: Arrow.obj
+{
+	NAME:		arrow
+	POS:		-5.0 0 -45.0
+	ROT:		0.0 0.0 90.0
+	ROT_INCR:	0.0 0.5 0.0
+	SCALE:		0.1 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: RTXCannon.obj
+{
+	NAME:		canon1
+	POS:		15.0 -2.5 -45.0
+	ROT:		0.0 -90.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.1 0.1 0.1
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: RTXCannon.obj
+{
+	NAME:		canon2
+	POS:		15.0 -2.5 -40.0
+	ROT:		0.0 -90.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.1 0.1 0.1
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: Book.obj
+{
+	NAME:		book
+	POS:		-5.0 -0.85 -45.0
+	ROT:		0.0 45.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: RTXChair.obj
+{
+	NAME:		chair
+	POS:		-3.0 -2.5 -42.0
+	ROT:		0.0 45.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.05 0.05 0.05
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: RTXChair.obj
+{
+	NAME:		chair2
+	POS:		-6.0 -2.5 -42.0
+	ROT:		0.0 -45.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.05 0.05 0.05
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: RTXTable.obj
+{
+	NAME:		table
+	POS:		-5.0 -2.5 -45.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.1 0.1 0.1
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: Shield.obj
+{
+	NAME:		shield
+	POS:		0.0 1.2 10.0
+	ROT:		90.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.05 0.05 0.05
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	0
+}
+
+MESH: CastleTowerOBJ.obj
+{
+	NAME:		tower3.1
+	POS:		-30.0 -3.0 -45.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.1 0.15 0.1
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleTowerOBJ.obj
+{
+	NAME:		tower3.2
+	POS:		28.0 -3.0 -45.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.1 0.15 0.1
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleWall.obj
+{
+	NAME:		wall3.1
+	POS:		-32.0 -3.0 -35.0
+	ROT:		0.0 90.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleWall.obj
+{
+	NAME:		wall3.2
+	POS:		27.0 -3.0 -35.0
+	ROT:		0.0 90.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleWall.obj
+{
+	NAME:		wall3.3
+	POS:		-32.0 -3.0 -55.0
+	ROT:		0.0 90.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleWall.obj
+{
+	NAME:		wall3.4
+	POS:		27.0 -3.0 -55.0
+	ROT:		0.0 90.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleWall.obj
+{
+	NAME:		wall1.1
+	POS:		-20.0 -3.0 -25.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleWall.obj
+{
+	NAME:		wall1.2
+	POS:		16.0 -3.0 -25.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleWall.obj
+{
+	NAME:		wall2.1
+	POS:		-20.0 -3.0 -65.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleWall.obj
+{
+	NAME:		wall2.2
+	POS:		16.0 -3.0 -65.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleTowerOBJ.obj
+{
+	NAME:		tower1.1
+	POS:		9.8 -3.0 -20.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleTowerOBJ.obj
+{
+	NAME:		tower1.2
+	POS:		-4.0 -3.0 -20.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleTowerOBJ.obj
+{
+	NAME:		tower1.3
+	POS:		30.0 -3.0 -20.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleTowerOBJ.obj
+{
+	NAME:		tower1.4
+	POS:		-30.0 -3.0 -20.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleTowerOBJ.obj
+{
+	NAME:		tower2.1
+	POS:		-30.0 -3.0 -60.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleTowerOBJ.obj
+{
+	NAME:		tower2.2
+	POS:		30.0 -3.0 -60.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleTowerOBJ.obj
+{
+	NAME:		tower2.3
+	POS:		9.8 -3.0 -60.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: CastleTowerOBJ.obj
+{
+	NAME:		tower2.4
+	POS:		-4.0 -3.0 -60.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.2 0.2 0.2
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	1
+}
+
+MESH: Floor.obj
+{
+	NAME:		wallbetweentower
+	POS:		0.0 2.0 -65.0
+	ROT:		90.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.5 2.0 0.5
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	5
+}
+
+MESH: earth.obj
+{
+	NAME:		skybox
+	POS:		0.0 0.0 -60.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 -0.001
+	SCALE:		-30.0 -30.0 -30.0
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	2
+}
+
+
+
+MESH: FloorGrass.obj
+{
+	NAME:		grass1.1
+	POS:		20.0 -3.0 -40.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		2.0 2.0 2.0
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	7
+}
+
+MESH: FloorGrass.obj
+{
+	NAME:		grass1.2
+	POS:		-20.0 -3.0 -40.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		2.0 2.0 2.0
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	3
+}
+
+MESH: FloorGrass.obj
+{
+	NAME:		grass2.1
+	POS:		20.0 -3.0 -80.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		2.0 2.0 2.0
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	3
+}
+
+MESH: FloorGrass.obj
+{
+	NAME:		grass2.2
+	POS:		-20.0 -3.0 -80.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		2.0 2.0 2.0
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	1
+	LIGHT_ID	3
+}
+
+MESH: Floor.obj
+{
+	NAME:		corridorfloorback
+	POS:		0.0 -2.5 15.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.3 2.0 0.75
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	0
+}
+
+MESH: Floor.obj
+{
+	NAME:		corridorfloor1
+	POS:		0.0 -2.5 0.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.3 2.0 0.75
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	0
+}
+
+MESH: Floor.obj
+{
+	NAME:		corridorfloor2
+	POS:		0.0 -2.5 -15.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.3 2.0 0.75
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	4
+}
+
+MESH: Floor.obj
+{
+	NAME:		corridortopback
+	POS:		0.0 2.0 15.0
+	ROT:		0.0 180.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.3 2.0 0.75
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	0
+}
+
+MESH: Floor.obj
+{
+	NAME:		corridortop1
+	POS:		0.0 2.0 0.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.3 2.0 0.75
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	0
+}
+
+MESH: Floor.obj
+{
+	NAME:		corridortop2
+	POS:		0.0 2.0 -15.0
+	ROT:		0.0 0.0 0.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.3 30.0 0.75
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	4
+}
+
+MESH: FloorBrown.obj
+{
+	NAME:		corridorwallback
+	POS:		0.0 0.5 15.0
+	ROT:		90.0 0.0 180.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.75 2.0 0.5
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	0
+}
+
+MESH: FloorBrown.obj
+{
+	NAME:		corridorwall1.1
+	POS:		-3.0 -2.5 0.0
+	ROT:		-90.0 0.0 90.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.75 2.0 0.5
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	0
+}
+
+MESH: FloorBrown.obj
+{
+	NAME:		corridorwall1.2
+	POS:		3.4 -2.5 0.0
+	ROT:		90.0 0.0 90.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.75 2.0 0.5
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	0
+}
+
+MESH: FloorBrown.obj
+{
+	NAME:		corridorwall2.1
+	POS:		-3.0 -2.39 -15.0
+	ROT:		90.0 0.0 90.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.75 2.0 0.5
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	4
+}
+
+MESH: FloorBrown.obj
+{
+	NAME:		corridorwall2.2
+	POS:		3.4 -2.5 -15.0
+	ROT:		90.0 0.0 90.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.75 2.0 0.5
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	4
+}
+
+MESH: FloorBrown.obj
+{
+	NAME:		corridorwallbackright
+	POS:		-3.0 -2.35 15.0
+	ROT:		90.0 0.0 90.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.75 2.0 0.5
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	0
+}
+
+MESH: FloorBrown.obj
+{
+	NAME:		corridorwallbackleft
+	POS:		3.4 -2.62 15.0
+	ROT:		-90.0 0.0 90.0
+	ROT_INCR:	0.0 0.0 0.0
+	SCALE:		0.75 2.0 0.5
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+	LIGHT_ID	0
+}
+
+SHADER_COUNT: 2
+SHADER:	Shaders/pointLight	VERT_SHDR	FRAG_SHDR
+SHADER:	Shaders/dirLight	VERT_SHDR	FRAG_SHDR
