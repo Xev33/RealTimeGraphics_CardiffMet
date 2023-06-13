@@ -1,24 +1,29 @@
 # README #
 
-# Welcome to my real time graphics project #
+This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
 
-* Here is the graphic renderer I produced for the eponymous module in the "Computer Game Design & Development" section of Cardiff Metropolitan University during the year I spent in Cardiff Wales.
-* This is my first project using C, C++ and OpenGL
-* The project has been made in 2 weeks
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
 
-* Clone the project
-* Press play
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
 
-### Features ###
-The graphic renderer handles a couple features such as:
-* Mesh importation
-* Mesh file reading
-* Mesh rendering using VAO and VBO
-* First person camera movement
-* Texture loading
-* Point light shader
-* Directional light shader
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+### Who do I talk to? ###
+
+* Repo owner or admin
+* Other community or team contact
