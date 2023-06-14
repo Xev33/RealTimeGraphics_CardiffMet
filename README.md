@@ -90,4 +90,4 @@ The following gif shows clearly see where the point light is and its effect on t
 
 <a name="acknowledgments"></a>
 ## Acknowledgments 
-I would like to thank Andrew Baker for the time he spent for taking the time to explain all these concepts to me throughout my time at Cardiff Metropolitan University. 
+I would like to thank Andrew Baker for the time he took to explain all these concepts to me throughout my time at Cardiff Metropolitan University. 
